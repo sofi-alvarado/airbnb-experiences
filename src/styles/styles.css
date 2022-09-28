@@ -20,3 +20,26 @@ nav {
 {
    max-width: 100px;
 }
+
+section {
+    padding: 20px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-photo {
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero-header {
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    margin-top: 0;
+}
