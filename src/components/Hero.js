@@ -1,6 +1,7 @@
 import React from 'react';
 import GridImage from '../images/imgGroup.png';
 
+
 export default function Hero() {
     return (
         <section className="hero-container">
