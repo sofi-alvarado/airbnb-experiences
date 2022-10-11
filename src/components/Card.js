@@ -19,12 +19,12 @@ export default function Card(props) {
                 
                 {badgeText && <div className="card--badge">{badgeText}</div>}
                 {/*If our variable badgeText has a value it will render the div with our badge*/} 
-                
-                <img src={props.img} className="card--image" alt="card" />
+
+                <img src={props.coverImg} className="card--image" alt="card" />
             <div className="card--stats">
                 <img src={imgStar} className="card--star" alt="star" />
-                <span> {props.rating} </span>
-                <span className="gray"> ({props.reviewCount}) • </span>
+                <span> {props.stats.rating} </span>
+                <span className="gray"> ({props.stats.reviewCount}) • </span>
                 <span className="gray"> {props.location} </span>
             </div>
             <p className="card--title">{props.title}</p>
